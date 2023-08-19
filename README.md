@@ -25,7 +25,7 @@ You should use modern updated web-browsers, Chrome is the best choice.
 
 ## Go to the application:
 
-(will be soon)
+[https://andrew2020wit.github.io/bilingua-dealer/](https://andrew2020wit.github.io/bilingua-dealer/)
 
 ## Documentation
 
