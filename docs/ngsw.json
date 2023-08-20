@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1692440191049,
+  "timestamp": 1692503956127,
   "index": "/bilingua-dealer/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/bilingua-dealer/favicon.ico",
         "/bilingua-dealer/index.html",
-        "/bilingua-dealer/main.295602e9e376040c.js",
+        "/bilingua-dealer/main.d52ea7c2813e8df4.js",
         "/bilingua-dealer/manifest.webmanifest",
         "/bilingua-dealer/polyfills.6afcfb98ab47c788.js",
         "/bilingua-dealer/runtime.2244a8929171c7ad.js",
-        "/bilingua-dealer/styles.89c01be1ba6883e3.css"
+        "/bilingua-dealer/styles.063d9fe37ce95a5a.css"
       ],
       "patterns": []
     },
@@ -52,12 +52,12 @@
     "/bilingua-dealer/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "/bilingua-dealer/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "/bilingua-dealer/favicon.ico": "04c278dba3e54393c4c980f7fd4dcd43796ef813",
-    "/bilingua-dealer/index.html": "6c544caee917f5602464a2e59b1cbe2dd3ad78e2",
-    "/bilingua-dealer/main.295602e9e376040c.js": "ba49fa7d2419c42674938d7ee9b8e9ac8c5a663f",
+    "/bilingua-dealer/index.html": "198b28a69180f7430554b5b60f8083c89c1a07fa",
+    "/bilingua-dealer/main.d52ea7c2813e8df4.js": "dccf5d791b54d73f398c23a9222741e05bbeafa9",
     "/bilingua-dealer/manifest.webmanifest": "7533024f1d0e94c21effd2427aaac8f3411f88c7",
     "/bilingua-dealer/polyfills.6afcfb98ab47c788.js": "9c148d93109b617e1437dd2c7c5b69f39bd855b2",
     "/bilingua-dealer/runtime.2244a8929171c7ad.js": "1395ae1b4f968302dec825fe8a1184b04efd8979",
-    "/bilingua-dealer/styles.89c01be1ba6883e3.css": "5e980b4e22e56c9501241ee2743bd5eb05e6ce4e"
+    "/bilingua-dealer/styles.063d9fe37ce95a5a.css": "6b293a15a26fa2d8681a829085f360697652b0ab"
   },
   "navigationUrls": [
     {
