@@ -45,6 +45,12 @@ Hot-keys: GoHome: 'Home', ShowMenu: '0', 'Escape', GoToNextItem: 'n', MarkIt: '1
 ShowTranslation: '2', AddFragment: '3', GoToNextFragment: '4', PlayAll: '5', PlayOne: '6',
 EditParagraphContent: '8', EditChapterTitle: '9'
 
+This is a "Progressive Web App", so you can use it offline, and install its app application.
+In Chrome, you can go to menu -> install Bilingua Dealer...
+
+For mobile, you can set "without translation" at creating book, and use Chrome-translation to read it.
+In this case this application is as a book reader.
+
 ## Licence
 
 - The author of this application is Andrii Faurash.
