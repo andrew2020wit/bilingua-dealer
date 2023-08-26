@@ -61,4 +61,8 @@ In this case this application is as a book reader.
 - This application is provided "AS IS".
 - The author of this application doesn't provide any guarantees.
 
+## Changelog
+
+[Changelog](https://github.com/andrew2020wit/bilingua-dealer/blob/master/changelog.md)
+
 Copyright (c) 2023 Andrii Faurash
