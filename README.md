@@ -51,6 +51,16 @@ In Chrome, you can go to menu -> install Bilingua Dealer...
 For mobile, you can set "without translation" at creating book, and use Chrome-translation to read it.
 In this case this application is as a book reader.
 
+## About naming
+
+"Bilingua Dealer" comes from:
+
+- [to deal with somebody/something](https://www.ldoceonline.com/dictionary/deal-with) - to take the necessary action,
+  especially in order to solve a problem. 
+  If a book, speech etc deals with a particular subject, it is about that subject
+- [deal in something](https://www.ldoceonline.com/dictionary/deal-in) - to be interested or involved in something
+
+
 ## Licence
 
 - The author of this application is Andrii Faurash.
