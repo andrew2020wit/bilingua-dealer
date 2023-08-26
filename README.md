@@ -53,7 +53,7 @@ In this case this application is as a book reader.
 
 ## About naming
 
-"Bilingua Dealer" comes from:
+Name "Bilingua Dealer" comes from:
 
 - [to deal with somebody/something](https://www.ldoceonline.com/dictionary/deal-with) - to take the necessary action,
   especially in order to solve a problem. 
