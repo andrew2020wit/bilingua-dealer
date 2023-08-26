@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1693021215125,
+  "timestamp": 1693050653479,
   "index": "/bilingua-dealer/index.html",
   "assetGroups": [
     {
@@ -29,29 +29,23 @@
         "ignoreVary": true
       },
       "urls": [
-        "/bilingua-dealer/assets/icons/icon-128x128.png",
-        "/bilingua-dealer/assets/icons/icon-144x144.png",
         "/bilingua-dealer/assets/icons/icon-152x152.png",
         "/bilingua-dealer/assets/icons/icon-192x192.png",
         "/bilingua-dealer/assets/icons/icon-384x384.png",
         "/bilingua-dealer/assets/icons/icon-512x512.png",
-        "/bilingua-dealer/assets/icons/icon-72x72.png",
-        "/bilingua-dealer/assets/icons/icon-96x96.png"
+        "/bilingua-dealer/assets/icons/icon-72x72.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/bilingua-dealer/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
-    "/bilingua-dealer/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
-    "/bilingua-dealer/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
-    "/bilingua-dealer/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
-    "/bilingua-dealer/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/bilingua-dealer/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/bilingua-dealer/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
-    "/bilingua-dealer/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
-    "/bilingua-dealer/favicon.ico": "04c278dba3e54393c4c980f7fd4dcd43796ef813",
+    "/bilingua-dealer/assets/icons/icon-152x152.png": "98295b9d1c878248ef899aa3d517d866d9f83ccf",
+    "/bilingua-dealer/assets/icons/icon-192x192.png": "6991270974ad4c0d7f5d8c8da0e5fb4bf1548a57",
+    "/bilingua-dealer/assets/icons/icon-384x384.png": "aca7de467d6f9f4f4aa645ab03c5d0590bc87639",
+    "/bilingua-dealer/assets/icons/icon-512x512.png": "b7d22f19d65318d06f7edf4a1edbfbe3aac85f01",
+    "/bilingua-dealer/assets/icons/icon-72x72.png": "fa800d7939aef8d64d199ab2d29019fcdddb2e0b",
+    "/bilingua-dealer/favicon.ico": "6ce8e68d31ad90cb60c7993a9f506eba41931fd6",
     "/bilingua-dealer/index.html": "8f4645e09f51a3431ee2af864d98580f610d8e06",
     "/bilingua-dealer/main.c0cd77319e978ab3.js": "33999bf986840b5137452221b1e6fc07a986bd0d",
     "/bilingua-dealer/manifest.webmanifest": "d8e3ee7bedfe16d9b91fd3f94bb9f67f1b161782",
