@@ -1,5 +1,6 @@
 # Bilingua Dealer: Changelog
 
+- 2023.08.31 Check an empty book (wrong path)
 - 2023.08.30 Remove All Marks Except Last => Remove All Marks Except Last Two
 - 2023.08.27 forbid empty original item.
 - 2023.08.26 offline mode (pwa) - fix.
