@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1693461436153,
+  "timestamp": 1693461605223,
   "index": "/bilingua-dealer/index.html",
   "assetGroups": [
     {
@@ -54,7 +54,7 @@
     "/bilingua-dealer/favicon.ico": "e5c9c1531bef198f986b3703c3e8a31ea54cfa01",
     "/bilingua-dealer/index.html": "3e76bafd08c8c0a46cee1777d1e419ae523373cd",
     "/bilingua-dealer/main.e178fba7e7e7cbda.js": "31dea287ec04494eb7fa3c9680c2ac34da22e3bc",
-    "/bilingua-dealer/manifest.webmanifest": "49ff784e6775f9941c33c5dbc5100c7502711a0c",
+    "/bilingua-dealer/manifest.webmanifest": "e2d5f8a3ad956c8b08e8acde60c26e7538a14db0",
     "/bilingua-dealer/polyfills.6afcfb98ab47c788.js": "9c148d93109b617e1437dd2c7c5b69f39bd855b2",
     "/bilingua-dealer/runtime.2244a8929171c7ad.js": "1395ae1b4f968302dec825fe8a1184b04efd8979",
     "/bilingua-dealer/styles.063d9fe37ce95a5a.css": "6b293a15a26fa2d8681a829085f360697652b0ab"
