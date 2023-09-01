@@ -85,6 +85,8 @@ then maybe you should use separate window for this application and for google-tr
 if you have performance troubles.
 It's only about creating. You will not have trouble with big books at reading.
 
+If you use a monolingual text, don't forget to turn off the translation - it keeps the place. 
+
 ### About some custom styles
 
 Custom styles are applied only to book-page.
