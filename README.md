@@ -13,7 +13,7 @@ Bilingua is a text (book), which contains some original text, and its translatio
   so that you can integrate it with a dictionary, which can observe clipboard (GoldenDict, for example).
 - Save the bilingua book as a json-file, import it from the json-file.
 
-This application can be also used as a good book-reader.
+This application can be also used as a good book-reader for monolingual texts.
 
 It can be used offline. All data is stored in your web-browser. It doesn't use any server.
 
@@ -27,9 +27,9 @@ You should use modern updated web-browsers, Chrome is the best choice.
 
 [https://andrew2020wit.github.io/bilingua-dealer/](https://andrew2020wit.github.io/bilingua-dealer/)
 
-## Documentation
+## YouTube guide
 
-YouTube guide ([playlist](https://www.youtube.com/playlist?list=PLZKEqtF-W8rp3MP9oktd7qgEwVhXAd90I)):
+[playlist](https://www.youtube.com/playlist?list=PLZKEqtF-W8rp3MP9oktd7qgEwVhXAd90I):
 
 - [How to use a bilingua book](https://www.youtube.com/watch?v=Tj2Bs4sRDwQ&list=PLZKEqtF-W8rp3MP9oktd7qgEwVhXAd90I).
 - [Loading error](https://www.youtube.com/watch?v=YJMqfpegWgQ&list=PLZKEqtF-W8rp3MP9oktd7qgEwVhXAd90I)
@@ -40,16 +40,6 @@ YouTube guide ([playlist](https://www.youtube.com/playlist?list=PLZKEqtF-W8rp3MP
 - [Mobile version](https://www.youtube.com/watch?v=Blfa2ksESuU&list=PLZKEqtF-W8rp3MP9oktd7qgEwVhXAd90I)
 - [Install as an application](https://www.youtube.com/watch?v=WmC10MrHUCI&list=PLZKEqtF-W8rp3MP9oktd7qgEwVhXAd90I)
 - [About autotranslate](https://www.youtube.com/watch?v=5EBS11hXVJ4&list=PLZKEqtF-W8rp3MP9oktd7qgEwVhXAd90I)
-
-Hot-keys: GoHome: 'Home', ShowMenu: '0', 'Escape', GoToNextItem: 'n', MarkIt: '1',
-ShowTranslation: '2', AddFragment: '3', GoToNextFragment: '4', PlayAll: '5', PlayOne: '6',
-EditParagraphContent: '8', EditChapterTitle: '9'
-
-This is a "Progressive Web App", so you can use it offline, and install its app application.
-In Chrome, you can go to menu -> install Bilingua Dealer...
-
-For mobile, you can set "without translation" at creating book, and use Chrome-translation to read it.
-In this case this application is as a book reader.
 
 ## About naming
 
@@ -71,7 +61,38 @@ Name "Bilingua Dealer" comes from:
 - This application is provided "AS IS".
 - The author of this application doesn't provide any guarantees.
 
-## Changelog
+## Information
+
+### Hot-keys
+
+GoHome: 'Home', ShowMenu: '0', 'Escape', GoToNextItem: 'n', MarkIt: '1',
+ShowTranslation: '2', AddFragment: '3', GoToNextFragment: '4', PlayAll: '5', PlayOne: '6',
+EditParagraphContent: '8', EditChapterTitle: '9'
+
+### Hints
+
+This is a "Progressive Web App", so you can use it offline, and you can install it.
+In Chrome, you can go to menu -> install Bilingua Dealer...
+
+For mobile, you can set "without translation" at creating book, and use Chrome-translation to read it.
+In this case this application is as a book reader.
+
+If you want to create monolingual book - don't use "split text".
+Just push "remove empty lines", check "without translation", and push "create bilingua"
+
+### About some custom styles
+
+Custom styles are applied only to book-page.
+
+Accent colors are related to headers.
+
+Flex width - defines proportion for original text and translation.
+
+Translation direction - "row" will replace original and translation.
+
+Color primary/accent/warn - for buttons.
+
+### Changelog
 
 [Changelog](https://github.com/andrew2020wit/bilingua-dealer/blob/master/changelog.md)
 
