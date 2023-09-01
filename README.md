@@ -4,13 +4,13 @@ Bilingua is a text (book), which contains some original text, and its translatio
 
 ## Bilingua Dealer is a server-less web-application which allows:
 
-- Create a bilingua book (with original text, and some translation service like Google-translation).
+- Create a bilingua book (with the original text, and some translation service like Google-translation).
 - Read bilingua books.
 - Edit bilingua books.
 - Learn the foreign language, using additional functionality like "fragments".
 - Listen the original text, using a speech-engine.
-- It automatically copies the selected text (or the clicked word) to clipboard,
-  so that you can integrate it with a dictionary, which can observe clipboard (GoldenDict, for example).
+- It automatically copies the selected text (or the clicked word) to the clipboard,
+  so that you can integrate it with a dictionary, which can observe the clipboard (GoldenDict, for example).
 - Save the bilingua book as a json-file, import it from the json-file.
 
 This application can be also used as a good book-reader for monolingual texts.
@@ -79,6 +79,11 @@ In this case this application is as a book reader.
 
 If you want to create monolingual book - don't use "split text".
 Just push "remove empty lines", check "without translation", and push "create bilingua"
+
+If you create a very big book, 
+then maybe you should use separate window for this application and for google-translation (or other),
+if you have performance troubles.
+It's only about creating. You will not have trouble with big books at reading.
 
 ### About some custom styles
 
