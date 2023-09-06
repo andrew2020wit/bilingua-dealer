@@ -23,6 +23,12 @@ It's better to use on desktop, but it's also optimized for smartphones.
 
 You should use modern updated web-browsers, Chrome is the best choice.
 
+## There are three ways how to use it
+
+- As a book reader for plane text (for normal (monolingual) text).
+- As a bilingua reader for bilingual text.
+- As a reader for foreign text, which allow you to add custom translation for some words.
+
 ## Go to the application:
 
 [https://andrew2020wit.github.io/bilingua-dealer/](https://andrew2020wit.github.io/bilingua-dealer/)
