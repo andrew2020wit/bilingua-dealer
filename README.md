@@ -56,17 +56,6 @@ Name "Bilingua Dealer" comes from:
   If a book, speech etc deals with a particular subject, it is about that subject
 - [deal in something](https://www.ldoceonline.com/dictionary/deal-in) - to be interested or involved in something
 
-
-## Licence
-
-- The author of this application is Andrii Faurash.
-- You can use it only for personal non-commercial purposes.
-- Don't include it (or part of it) in any other application/library/product/service.
-- Don't share modified copies.
-- You can use it without paying accordingly to this Licence.
-- This application is provided "AS IS".
-- The author of this application doesn't provide any guarantees.
-
 ## Information
 
 ### Hot-keys
@@ -108,5 +97,15 @@ Color primary/accent/warn - for buttons.
 ### Changelog
 
 [Changelog](https://github.com/andrew2020wit/bilingua-dealer/blob/master/changelog.md)
+
+## Licence
+
+- The author of this application is Andrii Faurash.
+- You can use it only for personal non-commercial purposes.
+- Don't include it (or part of it) in any other application/library/product/service.
+- Don't share modified copies.
+- You can use it without paying accordingly to this Licence.
+- This application is provided "AS IS".
+- The author of this application doesn't provide any guarantees.
 
 Copyright (c) 2023 Andrii Faurash
