@@ -56,9 +56,9 @@ Name "Bilingua Dealer" comes from:
   If a book, speech etc deals with a particular subject, it is about that subject
 - [deal in something](https://www.ldoceonline.com/dictionary/deal-in) - to be interested or involved in something
 
-## Information
+## Example: THE HOBBIT - CHAPTERS 1, 2
 
-[Example (en-ru): TOLKIEN - THE HOBBIT - CHAPTERS 1, 2 - demo](https://github.com/andrew2020wit/bilingua-dealer/example-book)
+[Example: THE HOBBIT - CHAPTERS 1, 2](https://github.com/andrew2020wit/bilingua-dealer/blob/master/example-book/TOLKIEN%20-%20THE%20HOBBIT%20-%20CHAPTERS%201%2C%202%20-%20demo.2023-09-10.bilingua.json)
 
 ## Information
 
