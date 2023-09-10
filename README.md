@@ -58,6 +58,10 @@ Name "Bilingua Dealer" comes from:
 
 ## Information
 
+[Example (en-ru): TOLKIEN - THE HOBBIT - CHAPTERS 1, 2 - demo](https://github.com/andrew2020wit/bilingua-dealer/example-book)
+
+## Information
+
 ### Hot-keys
 
 GoHome: 'Home', ShowMenu: '0', 'Escape', GoToNextItem: 'n', MarkIt: '1',
