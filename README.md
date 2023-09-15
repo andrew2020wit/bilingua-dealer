@@ -66,7 +66,7 @@ Name "Bilingua Dealer" comes from:
 
 GoHome: 'Home', ShowMenu: '0', 'Escape', GoToNextItem: 'n', MarkIt: '1',
 ShowTranslation: '2', AddFragment: '3', GoToNextFragment: '4', PlayAll: '5', PlayOne: '6',
-EditParagraphContent: '8', EditChapterTitle: '9', ShowTranslationAll: 't'
+EditParagraphContent: '8', EditChapterTitle: '9', ShowTranslationAll: 't', GoToNextMark: 'm'.
 
 ### Hints
 
