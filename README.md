@@ -52,7 +52,7 @@ You should use modern updated web-browsers, Chrome is the best choice.
 Name "Bilingua Dealer" comes from:
 
 - [to deal with somebody/something](https://www.ldoceonline.com/dictionary/deal-with) - to take the necessary action,
-  especially in order to solve a problem. 
+  especially in order to solve a problem.
   If a book, speech etc deals with a particular subject, it is about that subject
 - [deal in something](https://www.ldoceonline.com/dictionary/deal-in) - to be interested or involved in something
 
@@ -68,6 +68,11 @@ GoHome: 'Home', ShowMenu: '0', 'Escape', GoToNextItem: 'n', MarkIt: '1',
 ShowTranslation: '2', AddFragment: '3', GoToNextFragment: '4', PlayAll: '5', PlayOne: '6',
 EditParagraphContent: '8', EditChapterTitle: '9', ShowTranslationAll: 't', GoToNextMark: 'm'.
 
+Mobile gestures, for a paragraph:
+
+- swiperight = setShowTranslationForItem true
+- swipeleft= setShowTranslationForItem false
+
 ### Hints
 
 This is a "Progressive Web App", so you can use it offline, and you can install it.
@@ -79,12 +84,12 @@ In this case this application is as a book reader.
 If you want to create monolingual book - don't use "split text".
 Just push "remove empty lines", check "without translation", and push "create bilingua"
 
-If you create a very big book, 
+If you create a very big book,
 then maybe you should use separate window for this application and for google-translation (or other),
 if you have performance troubles.
 It's only about creating. You will not have trouble with big books at reading.
 
-If you use a monolingual text, don't forget to turn off the translation - it keeps the place. 
+If you use a monolingual text, don't forget to turn off the translation - it keeps the place.
 
 ### About some custom styles
 
