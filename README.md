@@ -68,11 +68,6 @@ GoHome: 'Home', ShowMenu: '0', 'Escape', GoToNextItem: 'n', MarkIt: '1',
 ShowTranslation: '2', AddFragment: '3', GoToNextFragment: '4', PlayAll: '5', PlayOne: '6',
 EditParagraphContent: '8', EditChapterTitle: '9', ShowTranslationAll: 't', GoToNextMark: 'm'.
 
-Mobile gestures, for a paragraph:
-
-- swiperight = setShowTranslationForItem true
-- swipeleft= setShowTranslationForItem false
-
 ### Hints
 
 This is a "Progressive Web App", so you can use it offline, and you can install it.
