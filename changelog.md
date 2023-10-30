@@ -1,5 +1,6 @@
 # Bilingua Dealer: Changelog
 
+- 2023.10.30 Marked headers - can be hidden in header-menu.
 - 2023.09.16 lazy loading - split to modules. v 0.908.
 - 2023.09.16 settings: don't copy to clipboard
 - 2023.09.15 GoToNextMark: 'm'
