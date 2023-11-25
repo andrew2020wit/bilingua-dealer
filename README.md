@@ -13,7 +13,7 @@ Bilingua is a text (book), which contains some original text, and its translatio
   so that you can integrate it with a dictionary, which can observe the clipboard (GoldenDict, for example).
 - Save the bilingua book as a json-file, import it from the json-file.
 
-This application can be also used as a good book-reader for monolingual texts.
+This application can be also used as a good book-reader for monolingual (normal) texts.
 
 It can be used offline. All data is stored in your web-browser. It doesn't use any server.
 
