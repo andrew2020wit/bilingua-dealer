@@ -1,5 +1,6 @@
 # Bilingua Dealer: Changelog
 
+- 2024.01.21 added dictionary functionality
 - 2023.11.25 v1.001: Add the simple way to import text files
 - 2023.11.03 v912: next header id indicator + switchHeaderMarker.
 - 2023.10.30 Marked menu improvement.
