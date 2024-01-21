@@ -108,6 +108,8 @@ The dictionary is only a demo-version because of copyright. I use the Lingvo-dic
 
 See also: [https://github.com/andrew2020wit/dsl-dictionary-parser](https://github.com/andrew2020wit/dsl-dictionary-parser)
 
+Dictionary functionality isn't  optimized for mobile (small screens). You have to use a large screen.
+
 ### Changelog
 
 [Changelog](https://github.com/andrew2020wit/bilingua-dealer/blob/master/changelog.md)
