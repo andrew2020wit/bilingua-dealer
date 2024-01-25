@@ -1,6 +1,24 @@
-export interface IMorphology {
+export interface IMorphologyDictionary {
+  rules: IMorphologyRule[];
+  language?: string;
+  source?: string;
+  updateDate?: string;
+  formatDescriptor?: 'JSONMorphologyDictionary';
+}
+
+export interface IMorphologyRule {
   i: string;
   o: string;
+}
+
+export interface IDictionary {
+  terms: IDictionaryTerm[];
+  dictionaryName?: string;
+  dictionaryTermLanguage?: string;
+  dictionaryLicense?: string;
+  updateDate?: string;
+  formatDescriptor?: 'JSONDictionary';
+  isShortVersion?: boolean;
 }
 
 export interface IDictionaryTerm {
@@ -10,6 +28,7 @@ export interface IDictionaryTerm {
 
 export interface IArticle {
   term: string;
+  dictionaryName?: string;
   partOfSpeech: string;
   transcription: string;
   definitions: IDefinition[];
@@ -17,6 +36,7 @@ export interface IArticle {
 
 export interface IDefinition {
   definition: string;
+  lexicalUnit?: string;
   showDetails?: boolean;
   synonym?: string;
   antonym?: string;
