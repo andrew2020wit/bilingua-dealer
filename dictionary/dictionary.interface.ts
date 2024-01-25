@@ -27,10 +27,9 @@ export interface IDictionaryTerm {
 }
 
 export interface IArticle {
-  term: string;
   dictionaryName?: string;
   partOfSpeech: string;
-  transcription: string;
+  transcription?: string;
   definitions: IDefinition[];
 }
 
