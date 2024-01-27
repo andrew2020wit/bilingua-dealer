@@ -111,7 +111,7 @@ See also: [https://github.com/andrew2020wit/dsl-dictionary-parser](https://githu
 Dictionary functionality isn't  optimized for mobile (small screens). You have to use a large screen.
 
 The dictionary is stored as one entry as it takes a lot of time to load (to store) 50000+ entries separately.
-Also, to display one entry, there can be many calls to the dictionary (checking for the presence of different forms of a word).
+Also, to display one word, there can be many calls to the dictionary (checking for the presence of different forms of a word).
 Synchronous interaction with the entire dictionary allows us to do this quickly.
 
 In my case, the dictionary is about 50MB in size (json-dictionary), and the performance is still quite good.
