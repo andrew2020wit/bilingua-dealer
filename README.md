@@ -56,7 +56,7 @@ Name "Bilingua Dealer" comes from:
   If a book, speech etc deals with a particular subject, it is about that subject
 - [deal in something](https://www.ldoceonline.com/dictionary/deal-in) - to be interested or involved in something
 
-## Example: THE HOBBIT - CHAPTERS 1, 2
+#### Example: THE HOBBIT - CHAPTERS 1, 2
 
 [Example: THE HOBBIT - CHAPTERS 1, 2](https://github.com/andrew2020wit/bilingua-dealer/blob/master/example-book/TOLKIEN%20-%20THE%20HOBBIT%20-%20CHAPTERS%201%2C%202%20-%20demo.2023-09-10.bilingua.json)
 
@@ -117,6 +117,10 @@ Synchronous interaction with the entire dictionary allows us to do this quickly.
 In my case, the dictionary is about 50MB in size (json-dictionary), and the performance is still quite good.
 You don't need a top-end computer for this.
 But it is better to avoid using dictionaries larger than 100MB.
+
+### Subtitles
+
+You can import subtitles files (.srt-format, utf-8 encoding). [Example](https://github.com/andrew2020wit/bilingua-dealer/tree/master/subtitles-examples)
 
 ### Changelog
 
