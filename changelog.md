@@ -1,6 +1,7 @@
 # Bilingua Dealer: Changelog
 
-- 2024.01.28 import subtitles (v2.008)
+- 2024.01.31 add Morphology Replace Rules as external rules  (v2.008)
+- 2024.01.28 import subtitles (v2.006)
 - 2024.01.27 dblclick in dictionary (v2.005)
 - 2024.01.21 added dictionary functionality (v2)
 - 2023.11.25 v1.001: Add the simple way to import text files

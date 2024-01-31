@@ -1,3 +1,10 @@
+export interface IMorphologyReplaceRulesDictionary {
+  morphologyReplaceRules: IMorphologyReplaceRule[];
+  language?: string;
+  updateDate?: string;
+  formatDescriptor?: 'JSONMorphologyReplaceRulesDictionary';
+}
+
 export interface IMorphologyDictionary {
   rules: IMorphologyRule[];
   language?: string;
@@ -45,4 +52,10 @@ export interface IDefinition {
 export interface IExample {
   original: string;
   translation?: string;
+}
+
+export interface IMorphologyReplaceRule {
+  index: number,
+  pattern: string,
+  replace: string
 }

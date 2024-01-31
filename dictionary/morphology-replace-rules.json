@@ -1,0 +1,77 @@
+{
+  "morphologyReplaceRules": [
+    {
+      "index": -1,
+      "pattern": "s",
+      "replace": ""
+    },
+    {
+      "index": -1,
+      "pattern": "d",
+      "replace": ""
+    },
+    {
+      "index": -1,
+      "pattern": "r",
+      "replace": ""
+    },
+
+    {
+      "index": -2,
+      "pattern": "ed",
+      "replace": ""
+    },
+
+    {
+      "index": -2,
+      "pattern": "ly",
+      "replace": ""
+    },
+
+    {
+      "index": -2,
+      "pattern": "er",
+      "replace": ""
+    },
+
+    {
+      "index": -2,
+      "pattern": "st",
+      "replace": ""
+    },
+
+    {
+      "index": -3,
+      "pattern": "ing",
+      "replace": ""
+    },
+
+    {
+      "index": -3,
+      "pattern": "ing",
+      "replace": "e"
+    },
+
+    {
+      "index": -3,
+      "pattern": "ied",
+      "replace": "y"
+    },
+    {
+      "index": -3,
+      "pattern": "ier",
+      "replace": "y"
+    },
+    {
+      "index": -3,
+      "pattern": "ies",
+      "replace": "y"
+    },
+
+    {
+      "index": -4,
+      "pattern": "ment",
+      "replace": ""
+    }
+  ]
+}

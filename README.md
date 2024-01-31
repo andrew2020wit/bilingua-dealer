@@ -118,6 +118,16 @@ In my case, the dictionary is about 50MB in size (json-dictionary), and the perf
 You don't need a top-end computer for this.
 But it is better to avoid using dictionaries larger than 100MB.
 
+#### Morphology Replace Rules
+
+You can define you own Morphology Replace Rules.
+
+index: index for replacement ( - 1 => from end)
+
+See example /dictionary/morphology-replace-rules.json
+
+And see /dictionary/utils/compute-morphology-rule(.spec).ts
+
 ### Subtitles
 
 You can import subtitles files (.srt-format, utf-8 encoding). [Example](https://github.com/andrew2020wit/bilingua-dealer/tree/master/subtitles-examples)
