@@ -1,7 +1,7 @@
 import { IMorphologyReplaceRule } from '../dictionary.interface';
 
 export function computeMorphologyRule(term: string, rule: IMorphologyReplaceRule): string | null {
-  const patternIndexFromStart = rule.index > 0 ? rule.index : term.length + rule.index;
+  const patternIndexFromStart = rule.index >= 0 ? rule.index : term.length + rule.index;
 
   if (term.slice(patternIndexFromStart, patternIndexFromStart + rule.pattern.length) !== rule.pattern) {
     return null;

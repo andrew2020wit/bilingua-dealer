@@ -1,8 +1,8 @@
 import { computeMorphologyRule } from './compute-morphology-rule';
-import { IMorphologyReplaceRule } from '../dictionary.interface';
+import { IMorphologyReplaceRule } from '../models/dictionary.interface';
 
 describe('computeMorphologyRule', () => {
-  type RulesKeys = 's => empty' | 'ed => empty' | 'ing => e';
+  type RulesKeys = 's => empty' | 'ed => empty' | 'ing => e' | 'prefix' | 'middle';
 
   const rules: Record<RulesKeys, IMorphologyReplaceRule> = {
     's => empty': {
@@ -21,6 +21,18 @@ describe('computeMorphologyRule', () => {
       index: -3,
       pattern: 'ing',
       replace: 'e',
+    },
+
+    'prefix': {
+      index: 0,
+      pattern: 'pre',
+      replace: 'replace',
+    },
+
+    'middle': {
+      index: 2,
+      pattern: 'middle',
+      replace: 'replace',
     },
   };
 
@@ -44,6 +56,22 @@ describe('computeMorphologyRule', () => {
     const ruleKey: RulesKeys = 'ing => e';
     const term = 'baking';
     const newTerm = 'bake';
+
+    expect(computeMorphologyRule(term, rules[ruleKey])).toBe(newTerm);
+  });
+
+  it('pre01234 => replace01234 (prefix)', () => {
+    const ruleKey: RulesKeys = 'prefix';
+    const term = 'pre01234';
+    const newTerm = 'replace01234';
+
+    expect(computeMorphologyRule(term, rules[ruleKey])).toBe(newTerm);
+  });
+
+  it('01middle777 => 01replace777 (middle)', () => {
+    const ruleKey: RulesKeys = 'middle';
+    const term = '01middle777';
+    const newTerm = '01replace777';
 
     expect(computeMorphologyRule(term, rules[ruleKey])).toBe(newTerm);
   });
