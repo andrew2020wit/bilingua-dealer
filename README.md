@@ -1,10 +1,8 @@
 # Bilingua Dealer
 
-Bilingua is a text (book), which contains some original text, and its translation (bilingual book).
-
 ## Bilingua Dealer is a server-less web-application which allows:
 
-- Create a bilingua book (with the original text, and some translation service like Google-translation).
+- Create a bilingual book (with the original text, and some translation service like Google-translation).
 - Read bilingua books.
 - Edit bilingua books.
 - Learn the foreign language, using additional functionality like "fragments".
@@ -12,6 +10,8 @@ Bilingua is a text (book), which contains some original text, and its translatio
 - It automatically copies the selected text (or the clicked word) to the clipboard,
   so that you can integrate it with a dictionary, which can observe the clipboard (GoldenDict, for example).
 - Save the bilingua book as a json-file, import it from the json-file.
+- It has functionality to use a built-in dictionary.
+- Import subtitles files
 
 This application can be also used as a good book-reader for monolingual (normal) texts.
 
@@ -22,12 +22,6 @@ You can read very big books without any technical troubles.
 It's better to use on desktop, but it's also optimized for smartphones.
 
 You should use modern updated web-browsers, Chrome is the best choice.
-
-## There are three ways how to use it
-
-- As a book reader for plane text (for normal (monolingual) text).
-- As a bilingua reader for bilingual text.
-- As a reader for foreign text, which allow you to add custom translation for some words.
 
 ## Go to the application:
 
@@ -70,21 +64,10 @@ EditParagraphContent: '8', EditChapterTitle: '9', ShowTranslationAll: 't', GoToN
 
 ### Hints
 
-This is a "Progressive Web App", so you can use it offline, and you can install it.
-In Chrome, you can go to menu -> install Bilingua Dealer...
-
-For mobile, you can set "without translation" at creating book, and use Chrome-translation to read it.
-In this case this application is as a book reader.
-
-If you want to create monolingual book - don't use "split text".
-Just push "remove empty lines", check "without translation", and push "create bilingua"
-
 If you create a very big book,
 then maybe you should use separate window for this application and for google-translation (or other),
 if you have performance troubles.
 It's only about creating. You will not have trouble with big books at reading.
-
-If you use a monolingual text, don't forget to turn off the translation - it keeps the place.
 
 ### About some custom styles
 
