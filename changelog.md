@@ -1,5 +1,6 @@
 # Bilingua Dealer: Changelog
 
+- 2024.02.06 add Wordset Dictionary
 - 2024.02.05 added Dictionary Viewer, Favorite examples. (v 3.0.0)
 - 2024.01.31 added Morphology Replace Rules as external rules  (v2.008)
 - 2024.01.28 import subtitles (v2.006)
