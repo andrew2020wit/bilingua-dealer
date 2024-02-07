@@ -1,5 +1,22 @@
 # Bilingua Dealer
 
+This web application was initially created as a tool to create and read bilingual books - books with translation text,
+which usually are taken from google-translation.
+
+It also has some integration with external dictionary (GoldenDict, trough clipboard).
+
+Then I added built-in dictionary functionality, which improve user experience very much.
+
+Now I use it to read english books, and to learn english with "favorite example" - functionality.
+
+It also has some other functionality, which I don't use anymore, but which still exist here
+(fragments, voice-engine, the integration with external dictionary, editing).
+
+This application also provide a way to read books with comfort, with a good font, and the good interface (in my opinion).
+
+This also has some functionality to customize user interface,
+but I use default settings, and at the moment I don't support full customization.
+
 ## Bilingua Dealer is a server-less web-application which allows:
 
 - Create a bilingual book (with the original text, and some translation service like Google-translation).
@@ -91,7 +108,7 @@ The dictionary is only a demo-version because of copyright. I use the Lingvo-dic
 
 See also: [https://github.com/andrew2020wit/dsl-dictionary-parser](https://github.com/andrew2020wit/dsl-dictionary-parser)
 
-Dictionary functionality isn't  optimized for mobile (small screens). You have to use a large screen.
+At the moment Dictionary functionality isn't  optimized for mobile (small screens). You have to use a large screen.
 
 The dictionary is stored as one entry as it takes a lot of time to load (to store) 50000+ entries separately.
 Also, to display one word, there can be many calls to the dictionary (checking for the presence of different forms of a word).
@@ -131,4 +148,4 @@ You can import subtitles files (.srt-format, utf-8 encoding). [Example](https://
 - This application is provided "AS IS".
 - The author of this application doesn't provide any guarantees.
 
-Copyright (c) 2023 Andrii Faurash
+Copyright (c) 2023-2024 Andrii Faurash
