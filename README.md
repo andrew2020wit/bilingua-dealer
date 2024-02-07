@@ -3,7 +3,7 @@
 This web application was initially created as a tool to create and read bilingual books - books with translation text,
 which usually are taken from google-translation.
 
-It also has some integration with external dictionary (GoldenDict, trough clipboard).
+It also has some integration with external dictionary (GoldenDict, through clipboard).
 
 Then I added built-in dictionary functionality, which improve user experience very much.
 
