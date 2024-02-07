@@ -101,6 +101,8 @@ In my case, the dictionary is about 50MB in size (json-dictionary), and the perf
 You don't need a top-end computer for this.
 But it is better to avoid using dictionaries larger than 100MB.
 
+Don't use more than a few thousand of favorite examples - they all are loaded at once.
+
 #### Morphology Replace Rules
 
 You can define you own Morphology Replace Rules.
