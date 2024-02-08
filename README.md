@@ -102,9 +102,9 @@ Color primary/accent/warn - for buttons.
 
 Settings => load a morphology-dictionary, main-dictionary.
 
-Full version of morphology is in [the dictionary folder](https://github.com/andrew2020wit/bilingua-dealer/tree/master/dictionary).
+See: [the dictionary folder](https://github.com/andrew2020wit/bilingua-dealer/tree/master/dictionary).
 
-The dictionary is only a demo-version because of copyright. I use the Lingvo-dictionary, but I cannot share it because of copyright.
+I use the Lingvo-dictionary, but I cannot share it because of copyright.
 
 See also: [https://github.com/andrew2020wit/dsl-dictionary-parser](https://github.com/andrew2020wit/dsl-dictionary-parser)
 
