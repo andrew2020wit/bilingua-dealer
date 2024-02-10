@@ -103,9 +103,12 @@ Color primary/accent/warn - for buttons.
 Settings => load a morphology-dictionary, main-dictionary. Turn-on dictionary.
 
 I use the Lingvo+Longman+Wordset-dictionaries, but I cannot share Lingvo+Longman because of copyright.
-You can get Wordset-dictionary here:
 
-[the dictionary folder](https://github.com/andrew2020wit/bilingua-dealer/tree/master/dictionary)
+You can get Wordset-dictionary (wordset-with-tr.json) here:
+
+[https://github.com/andrew2020wit/bilingua-dealer/tree/master/dictionary](https://github.com/andrew2020wit/bilingua-dealer/tree/master/dictionary)
+
+You also have to load morphology.json and morphology-replace-rules.json.
 
 See also: [https://github.com/andrew2020wit/dsl-dictionary-parser](https://github.com/andrew2020wit/dsl-dictionary-parser)
 
