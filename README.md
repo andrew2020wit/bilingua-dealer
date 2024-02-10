@@ -114,7 +114,7 @@ The dictionary is stored as one entry as it takes a lot of time to load (to stor
 Also, to display one word, there can be many calls to the dictionary (checking for the presence of different forms of a word).
 Synchronous interaction with the entire dictionary allows us to do this quickly.
 
-In my case, the dictionary is about 50MB in size (json-dictionary), and the performance is still quite good.
+In my case, the dictionary is about 130MB in size (three united dictionary), and the performance is still quite good.
 You don't need a top-end computer for this.
 But it is better to avoid using dictionaries larger than 200MB.
 
