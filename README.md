@@ -118,7 +118,7 @@ In my case, the dictionary is about 50MB in size (json-dictionary), and the perf
 You don't need a top-end computer for this.
 But it is better to avoid using dictionaries larger than 100MB.
 
-It shows only first 1000 favorite example (sorted by ToDoTime);
+It shows only first 1000 favorite examples (sorted by ToDoTime);
 
 #### Morphology Replace Rules
 
