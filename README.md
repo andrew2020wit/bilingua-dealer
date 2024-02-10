@@ -100,11 +100,12 @@ Color primary/accent/warn - for buttons.
 
 ### Dictionary functionality
 
-Settings => load a morphology-dictionary, main-dictionary.
+Settings => load a morphology-dictionary, main-dictionary. Turn-on dictionary.
 
-See: [the dictionary folder](https://github.com/andrew2020wit/bilingua-dealer/tree/master/dictionary).
+I use the Lingvo+Longman+Wordset-dictionaries, but I cannot share Lingvo+Longman because of copyright.
+You can get Wordset-dictionary here:
 
-I use the Lingvo-dictionary, but I cannot share it because of copyright.
+[the dictionary folder](https://github.com/andrew2020wit/bilingua-dealer/tree/master/dictionary)
 
 See also: [https://github.com/andrew2020wit/dsl-dictionary-parser](https://github.com/andrew2020wit/dsl-dictionary-parser)
 
