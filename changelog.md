@@ -1,5 +1,6 @@
 # Bilingua Dealer: Changelog
 
+- 2024.02.11 Dictionary optimization (v4.0.0)
 - 2024.02.10 "See also: words"-functionality
 - 2024.02.10 Export/Import favorites examples
 - 2024.02.06 add Wordset Dictionary

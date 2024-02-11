@@ -114,13 +114,8 @@ See also: [https://github.com/andrew2020wit/dsl-dictionary-parser](https://githu
 
 At the moment Dictionary functionality isn't  optimized for mobile (small screens). You have to use a large screen.
 
-The dictionary is stored as one entry as it takes a lot of time to load (to store) 50000+ entries separately.
-Also, to display one word, there can be many calls to the dictionary (checking for the presence of different forms of a word).
-Synchronous interaction with the entire dictionary allows us to do this quickly.
-
-In my case, the dictionary is about 130MB in size (three united dictionaries), and the performance is still quite good.
+In my case, the dictionary is about 130MB in size (three united dictionaries), and the performance is quite good.
 You don't need a top-end computer for this.
-But it is better to avoid using dictionaries larger than 200MB.
 
 It shows only first 1000 favorite examples (sorted by ToDoTime);
 
