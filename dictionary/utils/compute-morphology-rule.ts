@@ -1,4 +1,4 @@
-import { IMorphologyReplaceRule } from '../dictionary.interface';
+import {IMorphologyReplaceRule} from "./morphology-replace-rule.interface";
 
 export function computeMorphologyRule(term: string, rule: IMorphologyReplaceRule): string | null {
   const patternIndexFromStart = rule.index >= 0 ? rule.index : term.length + rule.index;

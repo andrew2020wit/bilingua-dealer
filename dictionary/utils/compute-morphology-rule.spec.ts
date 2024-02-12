@@ -1,78 +1,142 @@
 import { computeMorphologyRule } from './compute-morphology-rule';
-import { IMorphologyReplaceRule } from '../models/dictionary.interface';
+import {TMorphologyReplaceRulesIds} from "./compute-morphology-rule-ids.type";
+import {morphologyReplaceRules} from "./morphology-replace-rules";
+
+function computedNewTerm(ruleId: TMorphologyReplaceRulesIds, term: string): string {
+  const rule = morphologyReplaceRules.find(item => item.ruleId === ruleId)!;
+
+  return computeMorphologyRule(term, rule)!;
+}
 
 describe('computeMorphologyRule', () => {
-  type RulesKeys = 's => empty' | 'ed => empty' | 'ing => e' | 'prefix' | 'middle';
 
-  const rules: Record<RulesKeys, IMorphologyReplaceRule> = {
-    's => empty': {
-      index: -1,
-      pattern: 's',
-      replace: '',
-    },
-
-    'ed => empty': {
-      index: -2,
-      pattern: 'ed',
-      replace: '',
-    },
-
-    'ing => e': {
-      index: -3,
-      pattern: 'ing',
-      replace: 'e',
-    },
-
-    'prefix': {
-      index: 0,
-      pattern: 'pre',
-      replace: 'replace',
-    },
-
-    'middle': {
-      index: 2,
-      pattern: 'middle',
-      replace: 'replace',
-    },
-  };
-
-  it('books => book (s => empty)', () => {
-    const ruleKey: RulesKeys = 's => empty';
+  it('PluralNounS: books => book', () => {
+    const ruleId: TMorphologyReplaceRulesIds = 'PluralNounS';
     const term = 'books';
     const newTerm = 'book';
 
-    expect(computeMorphologyRule(term, rules[ruleKey])).toBe(newTerm);
+    expect(computedNewTerm(ruleId, term)).toBe(newTerm);
   });
 
-  it('books => book (ed => empty)', () => {
-    const ruleKey: RulesKeys = 'ed => empty';
-    const term = 'acted';
-    const newTerm = 'act';
+  it('PluralNounES: boxes => box', () => {
+    const ruleId: TMorphologyReplaceRulesIds = 'PluralNounES';
+    const term = 'boxes';
+    const newTerm = 'box';
 
-    expect(computeMorphologyRule(term, rules[ruleKey])).toBe(newTerm);
+    expect(computedNewTerm(ruleId, term)).toBe(newTerm);
   });
 
-  it('books => book (ing => e)', () => {
-    const ruleKey: RulesKeys = 'ing => e';
-    const term = 'baking';
-    const newTerm = 'bake';
+  it('PluralNounIES: universities => university', () => {
+    const ruleId: TMorphologyReplaceRulesIds = 'PluralNounIES';
+    const term = 'universities';
+    const newTerm = 'university';
 
-    expect(computeMorphologyRule(term, rules[ruleKey])).toBe(newTerm);
+    expect(computedNewTerm(ruleId, term)).toBe(newTerm);
   });
 
-  it('pre01234 => replace01234 (prefix)', () => {
-    const ruleKey: RulesKeys = 'prefix';
-    const term = 'pre01234';
-    const newTerm = 'replace01234';
+  it('Adverb: calmly => calm', () => {
+    const ruleId: TMorphologyReplaceRulesIds = 'Adverb';
+    const term = 'calmly';
+    const newTerm = 'calm';
 
-    expect(computeMorphologyRule(term, rules[ruleKey])).toBe(newTerm);
+    expect(computedNewTerm(ruleId, term)).toBe(newTerm);
   });
 
-  it('01middle777 => 01replace777 (middle)', () => {
-    const ruleKey: RulesKeys = 'middle';
-    const term = '01middle777';
-    const newTerm = '01replace777';
+  it('VerbEd: opened => open', () => {
+    const ruleId: TMorphologyReplaceRulesIds = 'VerbEd';
+    const term = 'opened';
+    const newTerm = 'open';
 
-    expect(computeMorphologyRule(term, rules[ruleKey])).toBe(newTerm);
+    expect(computedNewTerm(ruleId, term)).toBe(newTerm);
   });
+
+  it('VerbEEd: moved => move', () => {
+    const ruleId: TMorphologyReplaceRulesIds = 'VerbEEd';
+    const term = 'moved';
+    const newTerm = 'move';
+
+    expect(computedNewTerm(ruleId, term)).toBe(newTerm);
+  });
+
+  it('VerbIed: studied => study', () => {
+    const ruleId: TMorphologyReplaceRulesIds = 'VerbIed';
+    const term = 'studied';
+    const newTerm = 'study';
+
+    expect(computedNewTerm(ruleId, term)).toBe(newTerm);
+  });
+
+  it('VerbIng: looking => look', () => {
+    const ruleId: TMorphologyReplaceRulesIds = 'VerbIng';
+    const term = 'looking';
+    const newTerm = 'look';
+
+    expect(computedNewTerm(ruleId, term)).toBe(newTerm);
+  });
+
+  it('VerbEIng: moving => move', () => {
+    const ruleId: TMorphologyReplaceRulesIds = 'VerbEIng';
+    const term = 'moving';
+    const newTerm = 'move';
+
+    expect(computedNewTerm(ruleId, term)).toBe(newTerm);
+  });
+
+
+  it('Comparative: richer => rich', () => {
+    const ruleId: TMorphologyReplaceRulesIds = 'Comparative';
+    const term = 'richer';
+    const newTerm = 'rich';
+
+    expect(computedNewTerm(ruleId, term)).toBe(newTerm);
+  });
+
+  it('ComparativeE: nicer => nice', () => {
+    const ruleId: TMorphologyReplaceRulesIds = 'ComparativeE';
+    const term = 'nicer';
+    const newTerm = 'nice';
+
+    expect(computedNewTerm(ruleId, term)).toBe(newTerm);
+  });
+
+  it('ComparativeY: busier => busy', () => {
+    const ruleId: TMorphologyReplaceRulesIds = 'ComparativeY';
+    const term = 'busier';
+    const newTerm = 'busy';
+
+    expect(computedNewTerm(ruleId, term)).toBe(newTerm);
+  });
+
+  it('Superlative: richest => rich', () => {
+    const ruleId: TMorphologyReplaceRulesIds = 'Superlative';
+    const term = 'richest';
+    const newTerm = 'rich';
+
+    expect(computedNewTerm(ruleId, term)).toBe(newTerm);
+  });
+
+  it('SuperlativeE: nicest => nice', () => {
+    const ruleId: TMorphologyReplaceRulesIds = 'SuperlativeE';
+    const term = 'nicest';
+    const newTerm = 'nice';
+
+    expect(computedNewTerm(ruleId, term)).toBe(newTerm);
+  });
+
+  it('SuperlativeY: busiest => busy', () => {
+    const ruleId: TMorphologyReplaceRulesIds = 'SuperlativeY';
+    const term = 'busiest';
+    const newTerm = 'busy';
+
+    expect(computedNewTerm(ruleId, term)).toBe(newTerm);
+  });
+
+  it('MentSuffix:  => ', () => {
+    const ruleId: TMorphologyReplaceRulesIds = 'MentSuffix';
+    const term = 'government';
+    const newTerm = 'govern';
+
+    expect(computedNewTerm(ruleId, term)).toBe(newTerm);
+  });
+
 });
