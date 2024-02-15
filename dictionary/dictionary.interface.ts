@@ -1,3 +1,5 @@
+import {IMorphologyReplaceRule} from "./utils/morphology-replace-rule.interface";
+
 export interface IMorphologyReplaceRulesDictionary {
   morphologyReplaceRules: IMorphologyReplaceRule[];
   language?: string;
@@ -42,6 +44,7 @@ export interface IArticle {
 
 export interface IDefinition {
   definition: string;
+  level?: string;
   lexicalUnit?: string;
   showDetails?: boolean;
   synonym?: string;
@@ -54,8 +57,21 @@ export interface IExample {
   translation?: string;
 }
 
-export interface IMorphologyReplaceRule {
-  index: number,
-  pattern: string,
-  replace: string
+export interface IFavoriteExample {
+  timestamp?: number; // id, must be unique
+  toDoTimestamp?: number;
+  updateTimestamp?: number;
+  term: string;
+  partOfSpeech: string;
+  definition: string;
+  original: string;
+  translation?: string;
+  transcription?: string;
+  synonym?: string;
+  antonym?: string;
+  showDetails?: boolean;
+}
+
+export interface IFavoriteExampleCollection {
+  favoriteExamples: IFavoriteExample[]
 }
