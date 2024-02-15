@@ -1,5 +1,6 @@
 # Bilingua Dealer: Changelog
 
+- 2024.02.15 You can use "*" to search in dictionary.
 - 2024.02.11 Dictionary Viewer - dclick (v4.1.0)
 - 2024.02.11 Dictionary optimization (v4.0.0)
 - 2024.02.10 "See also: words"-functionality
