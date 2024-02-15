@@ -110,7 +110,11 @@ You can get free Wordset-dictionary (wordset-with-tr.json) from here:
 
 You also have to load morphology.json and morphology-replace-rules.json.
 
-See also: [https://github.com/andrew2020wit/dsl-dictionary-parser](https://github.com/andrew2020wit/dsl-dictionary-parser)
+See also:
+
+[https://github.com/andrew2020wit/dsl-dictionary-parser](https://github.com/andrew2020wit/dsl-dictionary-parser)
+
+[https://github.com/andrew2020wit/cald-mdx-to-json](https://github.com/andrew2020wit/cald-mdx-to-json)
 
 At the moment Dictionary functionality isn't  optimized for mobile (small screens). You have to use a large screen.
 
