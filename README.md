@@ -1,4 +1,4 @@
-# Bilingua Dealer
+# Bilingua Dealer - the web-application to read foreign texts.
 
 This web application was initially created as a tool to create and read bilingual books - books with translation text,
 which usually are taken from google-translation.
@@ -20,23 +20,22 @@ but I use default settings, and at the moment I don't support full customization
 ## Bilingua Dealer is a server-less web-application which allows:
 
 - Create a bilingual book (with the original text, and some translation service like Google-translation).
-- Read bilingua books.
-- Edit bilingua books.
-- Learn the foreign language, using additional functionality like "fragments".
+- Read/Edit bilingua books.
+- Learn the foreign language, using additional functionality like "fragments", "favorites examples".
 - Listen the original text, using a speech-engine.
 - It automatically copies the selected text (or the clicked word) to the clipboard,
   so that you can integrate it with a dictionary, which can observe the clipboard (GoldenDict, for example).
+- It has the built-in dictionary-viewer (but you have to upload dictionary itself).
 - Save the bilingua book as a json-file, import it from the json-file.
-- It has functionality to use a built-in dictionary.
 - Import subtitles files
 
 This application can be also used as a good book-reader for monolingual (normal) texts.
 
-It can be used offline. All data is stored in your web-browser. It doesn't use any server.
+All data is stored in your web-browser. It doesn't use any server.
 
 You can read very big books without any technical troubles.
 
-It's better to use on desktop, but it's also optimized for smartphones.
+It's better to use on desktop, but it's also (partly) optimized for smartphones.
 
 You should use modern updated web-browsers, Chrome is the best choice.
 
@@ -78,13 +77,6 @@ Name "Bilingua Dealer" comes from:
 GoHome: 'Home', ShowMenu: '0', 'Escape', GoToNextItem: 'n', MarkIt: '1',
 ShowTranslation: '2', AddFragment: '3', GoToNextFragment: '4', PlayAll: '5', PlayOne: '6',
 EditParagraphContent: '8', EditChapterTitle: '9', ShowTranslationAll: 't', GoToNextMark: 'm'.
-
-### Hints
-
-If you create a very big book,
-then maybe you should use separate window for this application and for google-translation (or other),
-if you have performance troubles.
-It's only about creating. You will not have trouble with big books at reading.
 
 ### About some custom styles
 
