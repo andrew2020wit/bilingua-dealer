@@ -1,3 +1,7 @@
+See new version of this application here:
+
+[Foreign Reader](https://github.com/andrew2020wit/foreign-reader)
+
 # Bilingua Dealer - the web-application to read foreign texts.
 
 This web application was initially created as a tool to create and read bilingual books - books with translation text,
@@ -6,11 +10,6 @@ which usually are taken from google-translation.
 It also has some integration with external dictionary (GoldenDict, through clipboard).
 
 Then I added built-in dictionary functionality, which improve user experience very much.
-
-Now I use it to read english books, and to learn english with "favorite example" - functionality.
-
-It also has some other functionality, which I don't use anymore, but which still exist here
-(fragments, voice-engine, the integration with external dictionary, editing).
 
 This application also provide a way to read books with comfort, with a good font, and the good interface (in my opinion).
 
