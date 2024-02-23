@@ -42,20 +42,6 @@ You should use modern updated web-browsers, Chrome is the best choice.
 
 [https://andrew2020wit.github.io/bilingua-dealer/](https://andrew2020wit.github.io/bilingua-dealer/)
 
-## YouTube guide
-
-[playlist](https://www.youtube.com/playlist?list=PLZKEqtF-W8rp3MP9oktd7qgEwVhXAd90I):
-
-- [How to use a bilingua book](https://www.youtube.com/watch?v=Tj2Bs4sRDwQ&list=PLZKEqtF-W8rp3MP9oktd7qgEwVhXAd90I).
-- [Loading error](https://www.youtube.com/watch?v=YJMqfpegWgQ&list=PLZKEqtF-W8rp3MP9oktd7qgEwVhXAd90I)
-- [Golden dict settings](https://www.youtube.com/watch?v=gDqUiRZoIxY&list=PLZKEqtF-W8rp3MP9oktd7qgEwVhXAd90I)
-- [How to create a bilingua book](https://www.youtube.com/watch?v=4ECIpavVafE&list=PLZKEqtF-W8rp3MP9oktd7qgEwVhXAd90I)
-- [Export and import](https://www.youtube.com/watch?v=gSKRDLunF6Q&list=PLZKEqtF-W8rp3MP9oktd7qgEwVhXAd90I)
-- [Custom user's styles](https://www.youtube.com/watch?v=UjQtVb9FNeI&list=PLZKEqtF-W8rp3MP9oktd7qgEwVhXAd90I)
-- [Mobile version](https://www.youtube.com/watch?v=Blfa2ksESuU&list=PLZKEqtF-W8rp3MP9oktd7qgEwVhXAd90I)
-- [Install as an application](https://www.youtube.com/watch?v=WmC10MrHUCI&list=PLZKEqtF-W8rp3MP9oktd7qgEwVhXAd90I)
-- [About autotranslate](https://www.youtube.com/watch?v=5EBS11hXVJ4&list=PLZKEqtF-W8rp3MP9oktd7qgEwVhXAd90I)
-
 ## About naming
 
 Name "Bilingua Dealer" comes from:
